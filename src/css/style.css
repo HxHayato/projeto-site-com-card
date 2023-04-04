@@ -49,7 +49,7 @@ header {
     color: #2A2A2A;
     margin-bottom: 1vw;
     font-size: 1.7rem;
-    font-family: 'Merriweather';
+    font-family: 'Merriweather', serif;
     font-weight: 700;
 }
 
@@ -57,7 +57,7 @@ header {
     color: #555555;
     margin-bottom: 2vw;
     font-size: 1.1rem;
-    font-family: 'Lota';
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
 }
 
@@ -65,7 +65,7 @@ header {
     margin-left: 5px;
     background-color: #6C63FF;
     color: #FFFFFF;
-    font-family: 'Lota';
+    font-family: 'Lato', sans-serif;
     font-size: 0.9rem;
     font-weight: 400;
     width: 120px;
@@ -114,7 +114,6 @@ main {
 }
 
 .card {
-    background-color: yellowgreen;
     width: 300px;
     height: 383px;
     display: flex;
@@ -164,14 +163,14 @@ main {
 
 .texto-card h1 {
     color: #2A2A2A;
-    font-family: 'Merriweather';
+    font-family: 'Merriweather', serif;
     font-weight: 700;
     font-size: 1.5rem;
 }
 
 .texto-card p {
     color: #555555;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 1rem;
 }
@@ -196,7 +195,7 @@ footer {
 
 .container-footer h1 {
     color: #2A2A2A;
-    font-family: 'Merriweather';
+    font-family: 'Merriweather', serif;
     font-weight: 400;
     font-size: 1.7rem;
     width: 100%;
@@ -230,7 +229,7 @@ footer {
     color: #555555;
     width: 100%;
     height: 30px;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 1rem;
     border: none;
@@ -254,7 +253,7 @@ footer {
     padding: 10 0px;
     width: 100%;
     height: 80%;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 1rem;
     border: none;
@@ -269,7 +268,7 @@ footer {
     margin-top: 10px;
     width: 100%;
     height: 40px;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-size: 1.1rem;
     border: none;
@@ -335,8 +334,14 @@ footer {
     }
 
     .texto-banner {
+        margin: 0;
+        padding: 0;
         height: 50%;
         width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .texto-banner h1 {
